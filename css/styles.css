@@ -1,0 +1,62 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+   background: url("../images/wallpaper.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    opacity: 0.8;
+  
+}
+h1{
+	
+	position: relative;
+	top: 250px;
+	text-align: center;
+	text-decoration-color: white;
+	font-size: 11.5em;
+	font-family: 'Lobster', cursive;
+	color: #00ffff;
+	text-shadow: 2px;
+	opacity:1;
+
+
+}
+#extension{
+	font-size: 35px;
+	color:#cc0000;
+	position: relative;
+	top:10px;
+	opacity:1;
+
+}
+#head-nav{
+	background-color: #1A1A1A;
+	border-radius: 0;
+	border: 0;
+}
+#nav-list{
+	padding: 10px;
+	padding-left: 20%;
+	padding-right:20%;
+}
+#nav-list li{
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size: 15px;
+	font-color: white;
+	text-transform: uppercase;
+	font-family: 'Josefin Slab', serif;
+}
+#nav-list a{
+	color:#FFFFFF;
+}
+#nav-list a:hover{
+	color:#AAAAAA;
+}
+.container div{
+	color: black;
+}
