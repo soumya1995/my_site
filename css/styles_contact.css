@@ -3,14 +3,105 @@
 }
 
 body{
-   
-  
-}
-#background div{
-	background: url("../images/wallpaper.jpg") no-repeat center center fixed;
+   background: url("../images/wallpaper.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
     opacity: 0.8;
-} 
+  
+}
+/*h1{
+	
+	position: relative;
+	top: 250px;
+	text-align: center;
+	text-decoration-color: white;
+	font-size: 11.5em;
+	font-family: 'Lobster', cursive;
+	color: #00ffff;
+	text-shadow: 2px;
+	opacity:1;
+
+
+}*/
+/*#extension{
+	font-size: 35px;
+	color:#cc0000;
+	position: relative;
+	top:10px;
+	opacity:1;
+
+}*/
+h3{
+	font-family: Times New Roman;
+}
+#contact-info{
+	background-color: #ffffff;
+	width:60%;
+	height:70%;
+	padding: 2%;
+	position:absolute;
+	top:25%;
+	left:20%;
+
+}
+#info div{
+	position:absolute;
+	left:50%;
+
+}
+#name{
+	height: 40px;
+	margin:10px 10px 10px 0;
+}
+#email{
+	height: 40px;
+	width: 30%;
+	margin:10px 10px 10px 0;
+}
+#subject{
+	height:40px;
+	width:51%;
+	margin:10px 10px 10px 0;
+}
+#message{
+	height:200px;
+	width:51%;
+	margin:10px 10px 10px 0;
+	resize:none;
+}
+input:hover{
+    color: #ADD8E6;
+}
+.button:hover{
+	color: #4c4c4c;
+	background-color:#32cd32;
+}
+#head-nav{
+	background-color: #1A1A1A;
+	border-radius: 0;
+	border: 0;
+}
+#nav-list{
+	padding: 10px;
+	padding-left: 20%;
+	padding-right:20%;
+}
+#nav-list li{
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size: 15px;
+	font-color: white;
+	text-transform: uppercase;
+	font-family: 'Josefin Slab', serif;
+}
+#nav-list a{
+	color:#FFFFFF;
+}
+#nav-list a:hover{
+	color:#AAAAAA;
+}
+.container div{
+	color: black;
+}
