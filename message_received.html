@@ -7,12 +7,13 @@
 
     
 
-    <title>Soumya Das</title>
+    <title>Contact</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles_contact.css">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
-  </head>
+ 
+   </head>
 
  <body>
 
@@ -35,13 +36,13 @@
        <a href=index.html>Home</a>
       </li>
       <li>
-       <a href=about_me.html>About Me</a>
+       <a href=index.html>About Me</a>
       </li>
       <li>
-       <a href=resume.html>Resume</a>
+       <a href=index.html>Resume</a>
       </li>
       <li>
-       <a href=project.html>Project</a>
+       <a href=index.html>Project</a>
       </li>
       <li>
        <a href=contact.html>Contact Me</a>
@@ -52,16 +53,29 @@
     </nav>
     </header>
 
-  <h1>
-   Soumya Das
-   <div id="extension">
-   Aspiring Software Developer
-   </div>
-  </h1>
+  <div id="contact-info">
+    <h3>CONTACT</h3>
+    <div id="info">
+      <form action="message_received.html">
+        <input type="text" id="name" placeholder="Name" required="required">
+        <input type="text" id="email" placeholder="Email" required="required"> <br>
+        <input type="text" id="subject" placeholder="Subject"> <br>
+        <textarea type="text" id="message" placeholder="Message" required="required"></textarea> <br>
+        <input type="submit" class="button" value="Send">
+        <span>Your message has been received</span>
+      </form>
+    </div>
+    <br>
+    soumya.das@stonybrook.edu <br>
+    Tel: 718-869-0152
+  </div>
 
-  <!-- jQuery (Bootstrap JS plugins depend on it) -->
-  <script src="js/jquery-2.1.4.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/script.js"></script>
+
+
+<!-- jQuery (Bootstrap JS plugins depend on it) -->
+   <script src="js/jquery-1.11.3.min.js"></script>
+   <script src="js/bootstrap.min.js"></script>
+   <script src="js/script.js"></script>
+  
  </body>
 </html>

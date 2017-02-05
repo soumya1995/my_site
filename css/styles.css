@@ -8,8 +8,9 @@ body{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-    opacity: 0.8;
-  
+}
+header{
+	opacity:0.8;
 }
 h1{
 	

@@ -8,56 +8,11 @@ body{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+   
   
 }
 header{
-	opacity: 0.8;
-}
-
-h3{
-	font-family: Times New Roman;
-}
-#contact-info{
-	background-color: #ffffff;
-	width:60%;
-	height:70%;
-	padding: 2%;
-	position:absolute;
-	top:25%;
-	left:20%;
-
-}
-#info div{
-	position:absolute;
-	left:50%;
-
-}
-#name{
-	height: 40px;
-	margin:10px 10px 10px 0;
-}
-#email{
-	height: 40px;
-	width: 30%;
-	margin:10px 10px 10px 0;
-}
-#subject{
-	height:40px;
-	width:51%;
-	margin:10px 10px 10px 0;
-}
-#message{
-	height:200px;
-	width:51%;
-	margin:10px 10px 10px 0;
-	resize:none;
-}
-input:hover{
-    color: #ADD8E6;
-}
-.button:hover{
-	color: #4c4c4c;
-	background-color:#32cd32;
+	opacity:0.8;
 }
 #head-nav{
 	background-color: #1A1A1A;
@@ -85,4 +40,42 @@ input:hover{
 }
 .container div{
 	color: black;
+}
+#description{
+	margin:25px;
+}
+#profile-img{
+	float:left;
+	margin:5%;
+}
+#info1{
+	padding-top:6%;
+	color:#ffffff;
+	font-size: 2em;
+	font-family: 'Josefin Slab', serif;
+	font-weight: bold;
+}
+#info2{
+	padding:2%;
+	padding-right: 5%;
+	color:#cc0000;
+	font-size: 1.4em;
+	font-weight:550;
+}
+#quote{
+	position:absolute;
+	top:75%;
+	left:50%;
+	text-align: center;
+	font-size:4em;
+	color:#000000;
+	font-weight: bold;
+}
+#phrase{
+	position:absolute;
+	top:80%;
+	left:30%;
+	font-size:1.5em;
+	font-weight: bold;
+	font-family: 'Josefin Slab', serif;
 }
